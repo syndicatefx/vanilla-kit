@@ -29,7 +29,7 @@ Inside the `pages` folder you will find some already created example pages, foll
 
 The rest is up to you - html, css and jQuery(link to jQuery lib already included in footer.php)
 
-I've also included a starting style.css, with some pretty typography presets that you can use to kick off your design, a handy javascript function  for .svg fallback to .png if you are using .svg images in your content.
+I've also included a starting style.css, with some pretty typography presets that you can use to kick off your design and a handy javascript function  for .svg fallback to .png if you are using .svg images in your content.
 
 Enjoy!!
 

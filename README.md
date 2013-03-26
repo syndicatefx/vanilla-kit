@@ -23,11 +23,13 @@ Vanilla Kit it pretty straight forward and you should be able to understand how 
 
 Edit the `inc/header.php` and `inc/footer.php` files and change the website titles and footer notes. The website's static parts like title, navigation and footer links are contained in these files.
 
-Inside the `pages` folder you will find some already created example pages, follow the instructions in these to know what needs to be included on every site page you create inside this folder.
+Inside the `pages` folder you will find some already created example pages, follow the instructions in these to know what needs to be included on every site page you create inside this folder. All images used in your page content can be directly linked to the `media` folder like this:
+
+	<img src="media/mypic.png" alt="some pic">
 
 The rest is up to you - html, css and jQuery(link to jQuery lib already included in footer.php)
 
-I've also included a starting style.css, with some pretty typography presets that you can use to kick off your design.
+I've also included a starting style.css, with some pretty typography presets that you can use to kick off your design, a handy javascript function  for .svg fallback to .png if you are using .svg images in your content.
 
 Enjoy!!
 

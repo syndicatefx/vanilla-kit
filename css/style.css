@@ -1,0 +1,145 @@
+/**********************************************************
+
+  Vanilla Kit
+  https://github.com/syndicatefx/vanilla-kit
+  Author Paulo Nunes (syndicatefx.com)
+
+  All Vanilla Kit code is released under the 
+  GNU General Public License.
+  See COPYRIGHT.txt and LICENSE.txt.
+
+  VANILLA STYLESHEET
+  A BASIC STYLESHEET TO GET YOU GOING!!
+  DELETE OR ADD TO IT
+
+***********************************************************/
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,700,700italic);
+/*----------------------------------------------------------
+  RESET HTML
+-----------------------------------------------------------*/
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section,dialog,summary{display:block}
+audio[controls],canvas,video{display:inline-block;*display:inline;zoom:1}
+audio:not([controls]){display:none;height:0}[hidden]{display:none}
+html{height:100%;font-size:100%;overflow-y:scroll;font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%}
+body{margin:0;min-height:100%;-webkit-font-smoothing:antialiased;font-smoothing:antialiased;text-rendering:optimizeLegibility}
+/*-----------------------------------------------------------
+  TYPOGRAPHY
+-----------------------------------------------------------*/
+body,button,input,select,textarea{font-size:100%;*font-size:1em;line-height:1.6em}
+p,blockquote,q,pre,address,hr,code,samp,dl,ol,ul,form,table,fieldset,menu,img{margin:0 0 1.5em;padding:0}
+h1,h2,h3,h4,h5,h6,p,ul,blockquote,pre,td,th,label,small{margin:0}
+h1{font-size:2.75em;line-height:1.2em;margin-bottom:0.4em}
+h2{font-size:2em;line-height:1em;margin-bottom:0.5em}
+h3{font-size:1.75em;line-height:1.33em;margin-bottom:0.6667em}
+h4{font-size:1.25em;line-height:1em;margin-bottom:1em}
+h5{font-size:1em;line-height:1.142em;margin-bottom:1.142em}
+h6{font-size:0.9em;line-height:1.33em;margin-bottom:1.33em}
+p,ul,blockquote,pre,td,th,label{font-size:1em;line-height:1.5em;margin-bottom:1.5em}
+small{font-size:0.875em;line-height:1.714em;margin-bottom:1.714em}
+pre{padding:0.5em;white-space:pre;white-space:pre-wrap;word-wrap:break-word}
+pre,code,kbd,samp{font-size:1em;line-height:1.5em;margin-bottom:1.5em}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}
+blockquote,q,cite{font-style:italic}
+blockquote{font-size:1.1em;margin:2em 0}
+cite{font-size:0.8em}
+blockquote > p{padding:0}
+ul,ol{list-style-position:inside;padding:0}
+li ul,li ol{margin:0 1.5em}
+dl dd{margin-left:1.5em}
+strong,b,dt{font-weight:700}
+dfn{font-style:italic}
+var,address{font-style:normal}
+sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}
+sup{top:-0.5em}
+sub{bottom:-0.25em}
+figure{margin:0}
+img,object,embed,video{max-width:100%;_width:100%}
+img{height:auto;border:0;-ms-interpolation-mode:bicubic}
+svg:not(:root){overflow:hidden}
+abbr[title],dfn[title]{cursor:help}
+ins,mark{text-decoration:none}
+del{text-decoration:line-through}
+
+table{border-collapse:collapse;border-spacing:0;margin-bottom:1.5em}
+th{text-align:left}
+tr,th,td{padding-right:1.5em}
+
+form{margin:0}
+fieldset{margin:0 2px;padding:0.35em 0.625em 0.75em}
+textarea{overflow:auto;vertical-align:top}
+legend{border:0;padding:0;*margin-left:-.75em}
+button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;vertical-align:baseline;*vertical-align:middle}
+button,input{line-height:normal;*overflow:visible}
+button,input[type="button"],input[type="reset"],input[type="submit"]{cursor:pointer;-webkit-appearance:button}
+input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}
+input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}
+input[type="search"]::-webkit-search-cancel-button,
+input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}
+button::-moz-focus-inner,
+input::-moz-focus-inner{border:0;padding:0}
+/*-----------------------------------------------------------
+  VANILLA STYLES
+-----------------------------------------------------------*/
+*{-moz-box-sizing:border-box;-webkit-box-sizing:border-box;box-sizing:border-box;}
+
+.cf:before,.cf:after{content:"";display:table}
+.cf:after{clear:both}
+.cf{zoom:1}
+
+html{
+	background:#fff;
+	color:#5d5d5d;
+}
+body{
+	max-width:35em;
+	font:125% "Roboto",sans-serif;
+	font-weight:300;
+	padding:0 0.5em;
+	margin:0 auto;
+}
+h1,h2,h3,h4,h5,h6{
+	font-weight:300
+}
+strong{
+	font-weight:400
+}
+a{
+	color:#D94736;
+	text-decoration:none;
+}
+a:hover{
+	color:#AD2516;
+}
+header{
+	margin:0 0 2em;
+}
+header img{
+	width:3em;
+	height:3em;
+	float:left;
+	margin:0.2em 0.2em 0 0;
+	border-radius:50%;
+}
+header h1 a{
+	font-size:0.9em;
+	color:#999;
+}
+nav,footer{
+	border-top:1px solid #eee;
+	border-bottom:1px solid #eee;
+}
+
+nav li{
+	list-style:none;
+	float:left;
+}
+nav a{
+	display:block;
+	padding:0.5em 1em;
+	margin:0 0.5em;
+}
+footer p{
+	font-size:0.8em;
+	margin:0;
+}

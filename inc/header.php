@@ -1,5 +1,10 @@
 <?php
 /**************************************************
+  Vanilla Kit
+  Copyright 2013 Paulo Nunes
+  https://github.com/syndicatefx/vanilla-kit
+  Author Paulo Nunes (syndicatefx.com)
+  
 	This file contains the <head> of your website:
 	The variables you see on some of the meta tags 
 	are used to output the information entered in 

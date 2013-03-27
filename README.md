@@ -35,4 +35,6 @@ Enjoy!!
 
 ##License##
 
- All Vanilla Kit code is released under the GNU General Public License. See COPYRIGHT.txt and LICENSE.txt.
+All Vanilla Kit code is licensed under the MIT License: http://opensource.org/licenses/MIT
+
+Basically, you can do whatever you want as long as you include the original copyright. See LICENSE.txt.

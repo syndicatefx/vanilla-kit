@@ -2,12 +2,14 @@
 /**********************************************************
 
   Vanilla Kit
+  Copyright 2013 Paulo Nunes
   https://github.com/syndicatefx/vanilla-kit
   Author Paulo Nunes (syndicatefx.com)
 
-  All Vanilla Kit code is released under the 
-  GNU General Public License.
-  See COPYRIGHT.txt and LICENSE.txt.
+  All Vanilla Kit code is licensed under the MIT License:
+  http://opensource.org/licenses/MIT
+  Basically, you can do whatever you want as long as you 
+  include the original copyright.
 
 ***********************************************************
 

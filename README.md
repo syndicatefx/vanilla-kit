@@ -1,6 +1,6 @@
 vanilla-kit
 ===========
-
+![Vanilla Kit logo](http://dl.dropbox.com/u/26469456/vanilla.png)
 Vanilla Kit is a very simple php powered dynamic website template to kickstart a small to medium sized project that does not require a CMS or a complicated file structure.
 
 It is not a MVC framework, it is not a CSS/Grid framework. It aims to ease the task of web designers to quickly setup and develop an organized and easy to edit website, it uses some basic PHP to separate the static parts of the website from the page content, and do the 'ol dynamic fetch page.
